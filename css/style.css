@@ -19,3 +19,31 @@ ul li a:hover{
 	background-color: navy;
 
 }
+h1{
+	background-color: red;
+	color: yellow;
+}
+#main{
+
+}
+#leftsidebar{
+	float:left;
+	width:25%;
+	height: 700px;
+
+}
+#main-content{
+	float:right;
+	width: 75%;
+
+}
+#main-content img {
+	
+}
+h3{
+	color: #c43103;
+}
+#cacbaivietmoi{
+	background-color: orange;
+	color: white;
+}
