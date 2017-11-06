@@ -1,0 +1,58 @@
+header{
+
+}
+nav ul li{
+	display: inline-block;
+	padding: 3px;
+
+}
+ul li a{
+	color: #a72e2e;
+}
+footer{
+	color: red;
+}
+#baiviet img{
+	height: 70px;
+	width: 70px;
+	
+}
+#giaibongdangoaihanganh {
+
+}
+#giaibongdangoaihanganh #img_baiviet img{
+	float: left;
+	width: 10%
+}
+#giaibongdaquocgiaitalia #img_baiviet img{
+	float: left;
+	width: 10%
+}
+#giaibongdaquocgiaitalia p{
+	float: right;
+	width: 90%;
+}
+#giaibongdaquocgiataybannha #img_baiviet img{
+	float: left;
+	width: 10%
+}
+#giaibongdaquocgiataybannha p{
+	float: right;
+	width: 90%;
+}
+#giaibongdaquocgiaphap p{
+	float: right;
+	width: 90%;
+}
+#giaibongdaquocgiaphap #img_baiviet img{
+	float: left;
+	width: 10%;
+}
+#giaibongdaquocgiaduc #img_baiviet img{
+	float: left;
+	width: 10%;
+}
+#giaibongdaquocgiaduc p{
+	float: right;
+	width: 90%;
+}
