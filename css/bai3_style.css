@@ -1,0 +1,47 @@
+header{
+	border-bottom: 2px solid red;
+}
+header img{
+	width: 100%;
+}
+nav{
+	border-bottom: 2px solid red;
+
+}
+footer
+{
+	border-bottom: 2px solid red;
+	border-top: 2px solid red;
+	text-align: center;
+}
+nav ul li{
+	display: inline-block;
+	padding: 3px;
+	
+}
+ul li a{
+	color: #a72e2e;
+
+}
+footer{
+	color: red;
+
+}
+#baiviet{
+	text-align: justify;
+}
+#baiviet img{
+	width: 120px;
+}
+ .img_baiviet{
+	float: left;
+	width: 120px;
+}
+#baiviet p{
+	float: left;
+	width: 80%;
+	padding-left: 25px;
+}
+
+
+
