@@ -10,10 +10,16 @@ ul li a{
 }
 .leftside{
 	float: left;
+	width: 20%;
 }
 .rightside{
 	float: right;
 }
-.lienhe{
-	float: left;
+}
+.maincontent .lienhe {
+	height: 500px;
+}
+table{
+	border: solid black 1px;
+	margin-top: 0px;
 }
