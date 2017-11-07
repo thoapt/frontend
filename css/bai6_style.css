@@ -1,0 +1,56 @@
+header{
+	background-color: orange;
+	height: 80px;
+	color: white;
+	text-transform: uppercase;
+	text-align: center;
+
+}
+footer{
+	color: white;
+	background-color: grey;
+	height: 40px;
+	text-align: center;
+}
+nav{
+	width: 500px;
+	height: 32px;
+}
+nav ul{
+	margin: 0px;
+	border: 0px;
+}
+nav ul li{
+	display: inline-block;
+	margin-top: 0px;
+}
+nav ul li a{
+	color: black;
+	padding: 5px;
+	font-family: aria;
+	font-size: 15px;
+}
+ #danhmuchinh .leftside{
+	background-color: orange;
+
+}
+#danhmuchinh p{
+	color: white;
+	text-align: center;
+	height: 26px;
+	background-color: blue;
+	font-family: aria;
+	font-size: 17px;
+}
+#content p{
+	min-height: 750px;
+	margin-left: 10px;
+}
+.leftside{
+	float: left;
+	clear: both;
+	width: 220px;
+}
+#main{
+	background-image: url(images/bai6/wallpaper.jpg);
+}
