@@ -25,6 +25,8 @@
 				<div class="leftside">
 					<p>Danh mục chính</p>
 				</div>
+					<div style="clear:both;"></div>
+				</div>
 				<div class="leftside">
 					<ul>
 					<li>Gia công phần mềm</li>
@@ -33,11 +35,13 @@
 					<li>Ảnh viện áo cưới</li>
 				</ul>
 				</div>
+				<div style="clear:both;"></div>
 			</div>
 			<div id="baivietdangchuy">
 				<div class="leftside">
 					<p>bài viết đáng chú ý</p>
 				</div>
+				<div style="clear:both;"></div>
 				<div class="leftside">
 					<ul>
 					<li>Hướng dẫn đăng kí học</li>
@@ -47,32 +51,94 @@
 					<li>hướng dẫn đóng học phí</li>
 				</ul>
 				</div>
+				<div style="clear:both;"></div>
 			</div>
 			<div class="leftside">
 				<img src="images/img1.gif" alt="">
 			</div>
+			<div style="clear:both;"></div>
 			<div class="leftside">
 				<img src="images/img2.gif" alt="">
 			</div>
 		</div>
 		<div id="maincontent">
-			<div id="lienhe">
-				<div class="lienhe">
-					<h3>Liên hệ</h3>
+				<form action="">
+					<table>
+						<tr>
+							<td colspan="2">Liên hệ</td>
+						</tr>
+						<tr>
+							<td>Tên tài khoản</td>
+							<td>
+								<input type="text" value="Vui lòng nhập tên tài khoản">
+							</td>
+						</tr>
+						<tr>
+							<td>Địa chỉ email</td>
+							<td>
+								<input type="text" value="Vui lòng nhập địa chỉ email">
+							</td>
+						</tr>
+						<tr>
+							<td>Giới tính</td>
+							<td>
+								<input type="radio" name="gioitinh">Nam
+								<input type="radio" name="gioitinh">Nữ
+							</td>
+						</tr>
+						<tr>
+							<td>Gửi tới</td>
+							<td>
+								<selected name="phongban">
+									<option value="hc">hành chính</option>
+									<option value="lt">lập trinh</option>
+								</selected>
+							</td>
+						</tr>
+						<tr>
+							<td>Nội dung liên hệ</td>
+							<td>
+								<textarea name="" id="" cols="30" rows="5"></textarea>
+							</td>
+						</tr>
+						<tr>
+							<td>Lựa chọn nâng cao</td>
+							<td>
+								<input type="checkbox" checked="checked">
+							</td>
+						</tr>
+						<tr>
+							<td colspan="2">
+								<table>
+								<tr>
+									<td>
+										<input type="button" name="lienhe.html" value="Gửi">
+									</td>
+									<td>
+										<input type="reset" value="Làm mới">
+									</td>
+								</tr>
+							</table>
+							</td>
+						</tr>
+					</table>
 				</div>
-			</div>
+				</form>
 		</div>
 		<div id="rightsidebar">
 				<div id="tuvantructuyen">
 					<div class="rightside">
 						<p>Tư vấn trực tuyến</p>
 					</div>
+					<div style="clear:both;"></div>
 					<div class="rightside">
 						<img src="images/online.gif" alt="">
 					</div>
+					<div style="clear:both;"></div>
 					<div class="rightside">
 						<img src="images/offline.gif" alt="">
 					</div>
+					<div style="clear:both;"></div>
 				</div>
 		</div>
 	</div>
