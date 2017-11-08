@@ -1,0 +1,37 @@
+header{
+margin: 0px;
+}
+nav{
+	background-color: grey;
+}
+nav ul{
+	margin: 0px;
+}
+
+nav ul li{
+	display: inline-block;
+	text-decoration: underline;
+	padding: 4px;
+	color: navy;
+	font-family: arial;
+	font-size: 14px;
+}
+nav ul li:hover{
+	color:red;
+}
+img{
+	width: 200px;
+}
+.leftside{
+	float: left;
+	clear:both;
+	width: 20%;
+}
+#maincontent{
+	width: 60%;
+}
+.rightside{
+	float: right;
+	clear: both;
+	width: 20%
+}
