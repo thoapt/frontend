@@ -1,6 +1,10 @@
 header{
 margin: 0px;
 }
+header img{
+	width: 100%;
+	height: 100px;
+}
 nav{
 	background-color: grey;
 }
@@ -19,19 +23,61 @@ nav ul li{
 nav ul li:hover{
 	color:red;
 }
-img{
-	width: 200px;
+#content{
+	width: 100%;
 }
-.leftside{
+#leftsidebar{
+	width: 15%;
+	background-color: grey;
 	float: left;
-	clear:both;
+}
+#noidungchinh{
+	width: 70%;
+	background-color: #eded8f;
+	float: left;
+}
+#rightsidebar{
+	width: 15%;
+	background-color: #bdbddc;
+	float: left;
+	margin-right: 0px;
+}
+#danhmucchinh p{
+	background-image: url(../images/menu_bar.gif);
+}#tuvan p{
+	background-image: url(../images/menu_bar.gif);
+}
+.chudeleft p{
+	background-image: url(../images/main_bar_left.gif);
+	float: left;
+	width: 100%;
+}
+.tieudebaivietleft{
+	width: 100%;
+	float: left;
+}
+.baivietleft .imgleft{
+	float: left;
 	width: 20%;
 }
-#maincontent{
-	width: 60%;
-}
-.rightside{
+.baivietleft p{
+	float: left;
+	width: 80%;
+} 
+.chuderight p{
+	background-image: url(../images/main_bar_right.gif);
 	float: right;
-	clear: both;
-	width: 20%
+	width: 100%;
+}
+.tieudebaivietright{
+	width: 100%;
+	float: right;
+}
+.baivietright .imgright{
+	float: right;
+	width: 20%;
+}
+.baivietright p{
+	float: right;
+	width: 80%;
 }
