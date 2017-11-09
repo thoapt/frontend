@@ -49,16 +49,18 @@ nav ul li:hover{
 }
 .chudeleft p{
 	background-image: url(../images/main_bar_left.gif);
-	float: left;
 	width: 100%;
 }
 .tieudebaivietleft{
 	width: 100%;
-	float: left;
 }
 .baivietleft .imgleft{
 	float: left;
 	width: 20%;
+}
+.baivietleft .baivietleft-content{
+	float:left;
+	width:80%;
 }
 .baivietleft p{
 	float: left;
@@ -66,12 +68,12 @@ nav ul li:hover{
 } 
 .chuderight p{
 	background-image: url(../images/main_bar_right.gif);
-	float: right;
 	width: 100%;
-}
-.tieudebaivietright{
-	width: 100%;
-	float: right;
+    text-align: right;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 3px 0;
 }
 .baivietright .imgright{
 	float: right;
@@ -80,4 +82,10 @@ nav ul li:hover{
 .baivietright p{
 	float: right;
 	width: 80%;
+}
+.clear {
+	clear: both;
+}
+h3{
+	text-align: right;
 }
