@@ -22,16 +22,23 @@ nav ul li:hover{
 img{
 	width: 200px;
 }
-.leftside{
+#leftsidebar{
+	width: 200px;
+}
+#leftsidebar .leftside{
 	float: left;
 	clear:both;
-	width: 20%;
 }
-#maincontent{
-	width: 60%;
+#main{
+	width: 960px;
 }
-.rightside{
+#rightsidebar .rightside{
 	float: right;
 	clear: both;
-	width: 20%
+}
+#rightsidebar{
+	width: 200px;
+}
+#maincontent{
+	width: 560px;
 }
