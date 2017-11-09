@@ -28,31 +28,60 @@ nav ul li:hover{
 }
 #leftsidebar{
 	width: 15%;
-	background-color: grey;
 	float: left;
+}
+#gioithieu p{
+	border: solid thin #e7ab54;
+    background-color: #e7ab54;
+    color: #fff;
 }
 #noidungchinh{
 	width: 70%;
-	background-color: #eded8f;
 	float: left;
 }
 #rightsidebar{
 	width: 15%;
-	background-color: #bdbddc;
 	float: left;
 	margin-right: 0px;
 }
 #danhmucchinh p{
 	background-image: url(../images/menu_bar.gif);
-}#tuvan p{
+	text-align: center;
+	color: white;
+	font-weight: bold;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.imgleftside {
+	text-align: center;
+	width: 226px;
+}
+.imgrightside{
+	text-align: center;
+}
+#tuvan p{
 	background-image: url(../images/menu_bar.gif);
+	text-align: center;
+	color: white;
+	font-weight: bold;
+	background-size: cover;
 }
 .chudeleft p{
 	background-image: url(../images/main_bar_left.gif);
 	width: 100%;
+	color: #fff;
+	text-transform: uppercase;
+    font-weight: bold;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .tieudebaivietleft{
 	width: 100%;
+	margin-top: -15px;
+    margin-bottom: -14px;
+    color: orange;
+    font-size: 13px;
+    font-family: arial;
 }
 .baivietleft .imgleft{
 	float: left;
@@ -64,7 +93,8 @@ nav ul li:hover{
 }
 .baivietleft p{
 	float: left;
-	width: 80%;
+	margin-left: -32px;
+	margin-top: -4px;
 } 
 .chuderight p{
 	background-image: url(../images/main_bar_right.gif);
@@ -74,18 +104,38 @@ nav ul li:hover{
     text-transform: uppercase;
     font-weight: bold;
     padding: 3px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .baivietright .imgright{
 	float: right;
 	width: 20%;
 }
-.baivietright p{
-	float: right;
-	width: 80%;
-}
 .clear {
 	clear: both;
 }
-h3{
+.chudeleft h3{
 	text-align: right;
+}
+.content-image-imgright{
+	width: auto;
+	float: right;
+}
+.tieudebaivietright{
+	text-align: right;
+	margin-top: -15px;
+    margin-bottom: -14px;
+    color: orange;
+    font-size: 13px;
+    font-family: arial;
+    font-weight: normal;
+}
+footer{
+	color: #fff;
+	text-align: center;
+	text-transform: capitalize;
+	font-family: arial;
+	font-size: 16px;
+	background-color: grey;
+	height: 30px;
 }
