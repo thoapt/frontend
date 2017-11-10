@@ -7,3 +7,6 @@ h1{
 table{
 	border-style: thin black;
 }
+.right{
+	border: 1px thin orange;
+}
