@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" href="">
+	<style>
+		.red{
+			background-color: red;
+			height: 200px;
+		}
+		.yellow{
+			background-color: yellow;
+			height: 200px;
+		}
+	</style>
+	<script language="javascript" src="http://code.jquery.com/jquery-2.0.0.min.js"></script>
+	<script language="javascript">
+		fuction clickEvent(){
+			var des =$('.description');
+			$(des).css({
+				color: 'red';
+			});
+		}
+		fuction doimau(){
+			var object = $('div');
+			for(var i=0; i < object.length; i++){
+				if($(object[i]).hasclass('.red')){
+					$(object[i]).removeclass('.red').addclass('.yellow');
+				}
+				else($(object[i]).hasclass('.yellow')){
+					$(object[i].removeclass('.yellow').addclass('.red'));
+				}
+			}
+			doimau();
+		}
+
+	</script>
+</head>
+<body>
+	<!--
+	/* bai 3- selector
+	<div id="container">
+		<h1 id="title"></h1>
+		<p class="description">description</p>
+		<p class="description">description</p>
+		<input type="button" onclick="clickEvent" value="submit">
+	</div>
+	*/
+	//-->
+	<div class="red"></div>
+	<div class="yellow"></div>
+	<input type="button" onclick="doimau" value="đổi màu" id="btn_doimau">
+</body>
+</html>
