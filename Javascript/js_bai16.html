@@ -8,12 +8,37 @@
 </head>
 <body>
 	<script language="javascript">
-		var a, b,dauNoi, ketqua;
-		funtion pheptinh(){
-			a=prompt("Mời bạn nhập số thứ 1");
-			dauNoi=prompt("Sử dụng 1 trong 5 phép toán sau đây: '+, -, x, :, %'");
-			b=prompt("Mời bạn nhập số thứ 1");
+		function phepTinh(a,phepNoi,b){
+			if(phepNoi=='+'){
+				var tong=(a+b);
+				alert("Tổng của "+a+ "và"+b+"bằng"+tong);
+			}
+			else if(phepNoi=='-'){
+				var hieu=(a-b);
+				alert("Hiệu của "+a+ "và"+b+"bằng"+hieu);
+			}
+			else if(phepNoi=='x'){
+				var tich=a*b;
+				alert("Tích của "+a+ "và"+b+"bằng"+tich);
+			}
+			else if(phepNoi==':'){
+				var thuong=(a/b);
+				alert("Thương của "+a+ "và"+b+"bằng"+thuong);
+			}
+			else if(phepNoi=='%'){
+				var phanTram=(a%b);
+				alert("Số dư của "+a+ "và"+b+"bằng"+phanTram);
+			}
+			else{
+				alert("bạn vừa nhập phép toán không hợp lệ");
+			}
 		}
+		var a=prompt("Mời bạn nhập số thứ 1");
+		a=parseFloat(a);
+		var phepNoi=prompt("Sử dụng 1 trong 5 phép toán sau đây: +, -, x, :, %");
+		var b=prompt("Mời bạn nhập số thứ 2");
+		b=parseFloat(b);
+		phepTinh(a,phepNoi,b);
 		
 	</script>
 </body>
