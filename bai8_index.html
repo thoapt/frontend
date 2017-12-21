@@ -5,54 +5,57 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title></title>
 	<link rel="stylesheet" href="css/bai8_style.css">
-	<script src="//code.jquery.com/jquery-2.1.1.min.js"></script>
-	<script language="javascript">
-			$(function() {
 
-			  var ul = $(".slider ul");
-			  var slide_count = ul.children().length;
-			  var slide_width_pc = 100.0 / slide_count;
-			  var slide_index = 0;
 
-			  ul.find("li").each(function(indx) {
-			    var left_percent = (slide_width_pc * indx) + "%";
-			    $(this).css({"left":left_percent});
-			    $(this).css({width:(100 / slide_count) + "%"});
-			  });
 
-			  // Listen for click of prev button
-			  $(".slider .prev").click(function() {
-			    console.log("prev button clicked");
-			    slide(slide_index - 1);
-			  });
+	<link rel="stylesheet" href="css/responsiveslides.css">
+  	<link rel="stylesheet" href="css/demo.css">
+  	<script src="http://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+  	<script src="js/responsiveslides.min.js"></script>
+	  <script>
+	    // You can also use "$(window).load(function() {"
+	    $(function () {
 
-			  // Listen for click of next button
-			  $(".slider .next").click(function() {
-			    console.log("next button clicked");
-			    slide(slide_index + 1);
-			  });
+	      // Slideshow 4
+	      $("#slider4").responsiveSlides({
+	        auto: true,
+	        pager: false,
+	        nav: true,
+	        speed: 500,
+	        namespace: "callbacks",
+	        maxwidth: 1200
+	      });
 
-			  function slide(new_slide_index) {
+	    });
+	  </script>
 
-			    if(new_slide_index < 0 || new_slide_index >= slide_count) return; 
-
-			    var margin_left_pc = (new_slide_index * (-100)) + "%";
-
-			    ul.animate({"margin-left": margin_left_pc}, 400, function() {
-
-			      slide_index = new_slide_index
-
-			    });
-
-			  }
-
+	  <script src='js/snowfall.jquery.min.js'></script>
+    <script type='text/javascript'>     
+        $(document).ready(function(){
+            //Start the snow default options you can also make it snow in certain elements, etc.
+            $(document).snowfall({deviceorientation : true, round : true, minSize: 15, maxSize:28});
+	        $(window).scroll(function(event){
+			   var st = $(this).scrollTop();
+			   if(st>200){
+			   		$('#scroll').css("display","block");
+			   }else{
+			   	 $('#scroll').css("display","none");
+			   }
 			});
-			slide();
-	</script>
+			$('#scroll').click(function(){
+				$(window).scrollTop(0,1000);
+			}) ;  	
+        });
+     </script>
+
+
+
+
+
 </head>
 <body>
-	<div id="main">
-		<header>
+	<header>
+		<div class="container">
 			<img src="images/banner.gif" alt="banner">
 		</div>
 	</header>
@@ -66,14 +69,24 @@
 			</ul>
 		</nav>
 	</div>
-	<div class="container">
-		<div class ="slider">
-			<ul>
-				<li><img src="images/wall.jpg" alt="snow"></li>
-				<li><img src="images/phanmem.gif" alt="snow"></li>
-			</ul>
-			 <button class="prev">prev</button>
-			 <button class="next">next</button>
+	<div id="slide">
+		<div class="container">
+			<div class="callbacks_container">
+		      <ul class="rslides" id="slider4">
+		        <li>
+		          <img src="images/1.jpg" alt="">
+		          <p class="caption">This is a caption</p>
+		        </li>
+		        <li>
+		          <img src="images/2.jpg" alt="">
+		          <p class="caption">This is another caption</p>
+		        </li>
+		        <li>
+		          <img src="images/3.jpg" alt="">
+		          <p class="caption">The third caption</p>
+		        </li>
+		      </ul>
+		    </div>
 		</div>
 	</div>
 	<div class="container">
@@ -203,6 +216,7 @@
 			<p>bản quyền thuộc về trung tâm đào tạo thiết kế</p>
 		</footer>
 	</div>
-	</div>
+
+	<div id="scroll"></div>
 </body>
 </html>
