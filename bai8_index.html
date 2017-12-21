@@ -5,14 +5,12 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title></title>
 	<link rel="stylesheet" href="css/bai8_style.css">
-
-
-
 	<link rel="stylesheet" href="css/responsiveslides.css">
   	<link rel="stylesheet" href="css/demo.css">
   	<script src="http://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+  	<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
   	<script src="js/responsiveslides.min.js"></script>
-	  <script>
+	 <script>
 	    // You can also use "$(window).load(function() {"
 	    $(function () {
 
@@ -28,8 +26,9 @@
 
 	    });
 	  </script>
+	<script src="js/magicwand.js"></script>
+	<script src='js/snowfall.jquery.min.js'></script>
 
-	  <script src='js/snowfall.jquery.min.js'></script>
     <script type='text/javascript'>     
         $(document).ready(function(){
             //Start the snow default options you can also make it snow in certain elements, etc.
@@ -44,14 +43,10 @@
 			});
 			$('#scroll').click(function(){
 				$(window).scrollTop(0,1000);
-			}) ;  	
+			}) ;  
+			$('#gioithieu').magicWand({'animation':'color','color':'#00FF00'});
         });
      </script>
-
-
-
-
-
 </head>
 <body>
 	<header>
@@ -74,15 +69,15 @@
 			<div class="callbacks_container">
 		      <ul class="rslides" id="slider4">
 		        <li>
-		          <img src="images/1.jpg" alt="">
+		          <img src="images/giangsinh1.png" alt="">
 		          <p class="caption">This is a caption</p>
 		        </li>
 		        <li>
-		          <img src="images/2.jpg" alt="">
+		          <img src="images/giangsinh2.jpg" alt="">
 		          <p class="caption">This is another caption</p>
 		        </li>
 		        <li>
-		          <img src="images/3.jpg" alt="">
+		          <img src="images/giangsinh3.jpg" alt="">
 		          <p class="caption">The third caption</p>
 		        </li>
 		      </ul>
@@ -217,6 +212,8 @@
 		</footer>
 	</div>
 
-	<div id="scroll"></div>
+	<div id="scroll">
+		<img src="images/arrow.png" alt="arrow">
+	</div>
 </body>
 </html>
