@@ -8,7 +8,7 @@
 	<link rel="stylesheet" href="css/responsiveslides.css">
   	<link rel="stylesheet" href="css/demo.css">
   	<script src="http://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
-  	<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+  	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
   	<script src="js/responsiveslides.min.js"></script>
 	 <script>
 	    // You can also use "$(window).load(function() {"
@@ -32,7 +32,9 @@
     <script type='text/javascript'>     
         $(document).ready(function(){
             //Start the snow default options you can also make it snow in certain elements, etc.
+            
             $(document).snowfall({deviceorientation : true, round : true, minSize: 15, maxSize:28});
+
 	        $(window).scroll(function(event){
 			   var st = $(this).scrollTop();
 			   if(st>200){
@@ -43,8 +45,10 @@
 			});
 			$('#scroll').click(function(){
 				$(window).scrollTop(0,1000);
-			}) ;  
-			$('#gioithieu').magicWand({'animation':'color','color':'#00FF00'});
+			}) ; 
+			$('p').each(function(){
+				$(this).magicWand({'animation':'color','color':'#00FF00'});
+			}) ;
         });
      </script>
 </head>
