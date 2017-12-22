@@ -1,0 +1,31 @@
+footer,header{
+	background-color: green;
+	color: white;
+	text-align: center;
+}
+article,section,aside{
+	background-color: green;
+	color:white;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.container{
+	margin-top: 10px;
+}
+.center-block{
+	width: 50%;
+	background-color: green;
+	padding: 10px;
+}
+.demo{
+	background-color: yellow;
+	margin: 10px;
+	padding: 10px;
+	border: solid 1px red;
+}
+.pull-left ,.pull-right{
+	padding: 10px;
+	background-color: #00BCD4;
+
+}
