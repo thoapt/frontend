@@ -1,0 +1,16 @@
+header{
+	background-image: url('../images/quantrimang_bg-header.jpg');
+}
+ul li{
+	padding: 5px;
+}
+.list-inline{
+	background-color: #58257b;
+	color: white;
+}
+.slider{
+	background-color: red;
+}
+#tuyendung{
+	background-color: yellow;
+}
