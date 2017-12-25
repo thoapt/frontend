@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
+	<link rel="stylesheet" type="text/css" href="css/quantrimang.css">
+</head>
+<body>
+	<!-- vertical form (form ngang)
+		<div class="container">
+		<h1>Tìm hiẻu vertical form</h1>
+		<div class="row">
+			<form action="" name="dangnhap" method="post">
+				<div class="form-group">
+					<label for="taikhoan">Tài khoản</label>
+					<input type="text" name="username" class="form-control" placeholder="Tên tài khoản">
+				</div>
+				<div class="form-group">
+					<label for="matkhau">Mật khẩu</label>
+					<input type="password" name="pass" class="form-control" placeholder="Mật khẩu">
+				</div>
+				<div class="form-group">
+					<input type="checkbox" name="remember" checked="checked">Nhớ thông tin
+				</div>
+				<div class="form-group">
+					<input type="submit" class="btn btn-info" value="Đăng nhập">
+				</div>
+			</form>
+		</div>
+	</div>
+	-->
+	<div class="container">
+		<h1>Tìm hiẻu Horizontal form (Form dọc)</h1>
+		<div class="row">
+			<form action="" name="dangnhap" method="post" class="form-horizontal">
+				<div class="form-group">
+					<label for="taikhoan" class="control-label col-xs-2">Tài khoản</label>
+					<div class="col-xs-10">
+						<input type="text" name="username" class="form-control" placeholder="Tên tài khoản">
+					</div>
+				</div>
+				<div class="form-group">
+					<label for="matkhau" class="control-label col-xs-2">Mật khẩu</label>
+					<div class="col-xs-10">
+						<input type="password" name="pass" class="form-control" placeholder="Mật khẩu">
+					</div>
+				</div>
+				<div class="col-xs-10 col-xs-offset-2">
+					<div class="form-group">
+						<div class="checkbox">
+							<label>
+								<input type="checkbox" name="remember">Nhớ thông tin
+							</label>
+						</div>
+					</div>
+				</div>
+				<div class="col-xs-10 col-xs-offset-2">
+					<div class="form-group">
+					<input type="submit" class="btn btn-info" value="Đăng nhập">
+				</div>
+				</div>
+			</form>
+		</div>
+	</div>
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
