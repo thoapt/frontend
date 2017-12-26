@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
+	<link rel="stylesheet" type="text/css" href="">
+	<style>
+		body{
+			min-height:1000px;
+			padding-top: 50px;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<h1>Cách tạo Form và button trong nav</h1>
+		<div class="row">
+			<nav class="navbar navbar-default navbar-fixed-top">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu_x">
+						<span class="sr-only">Toggle navagation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a href="#" class="navbar-brand">
+						<img src="images/quantrimang_bg-logo.png" alt="">
+					</a>
+				</div>
+				<div class="navbar-collapse collapse" id="menu_x">
+					<ul class="nav navbar-nav">
+						<li class="active"><a href="#"><span class="glyphicon glyphicon-home"></span> Trang chủ</a></li>
+						<li><a href="#"><span class="glyphicon glyphicon-info-sign"></span> Giới thiệu</a></li>
+						<li><a href="#"><span class="glyphicon glyphicon-cog"></span> Dịch vụ</a></li>
+						<li><a href="#"><span class="glyphicon glyphicon-new-window"></span> Tin tức</a></li>
+						<li><a href="#"><span class="glyphicon glyphicon-phone"></span> Liên hệ</a></li>
+					</ul>
+					<div class="navbar-left">
+						<a href="#" class="btn btn-info navbar-btn"><span class="glyphicon glyphicon-user"></span> Đăng kí</a>
+						<a href="#" class="btn btn-info navbar-btn"><span class="glyphicon glyphicon-log-in"></span> Đăng nhập</a>
+					</div>
+					<form action="" name="search" method="get" class="navbar-form navbar-right">
+						<div class="form-group">
+							<input type="text" name="keywword" class="form-control" placeholder="Nhập từ khóa">
+							<button type="submit" class="btn btn-primary">Tìm</button>
+						</div>
+					</form>
+				</div>
+			</nav>
+		</div>
+
+		<!-- Nội dung trang web
+		-->
+		<div class="row">
+			<p>The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog.</p>
+		<p>In other words, the first number specifies the number of paragraphs you want to insert; the second number specifies the number of sentences you want to include in those paragraphs.</p>
+		<p>If you’re using Word 95 or lower (or if you’re tired of that quick brown fox), you can use the traditional Latin “Lorem ipsum dolor . . . ,” which has been used as placeholder text for centuries:</p>
+		<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exercitation ulliam corper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem veleum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel willum lunombro dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
+		<p>If you’re curious about this, it’s a garbled quotation from Cicero’s De Finibus Bonorum et Malorum (On the Ends of Good and Bad), book 1, paragraph 32, which reads, “Neque porro quisquam est, qui dolorem ipsum, quia dolor sit, amet, consectetur, adipisci velit,” meaning, “There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain.” The book was popular during the Renaissance, when the passage was used in a book of type samples for that wonderful new technology, printing.</p>
+		</div>
+	</div>
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
