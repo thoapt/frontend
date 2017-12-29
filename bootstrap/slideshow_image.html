@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
+	<link rel="stylesheet" type="text/css" href="">
+	<style>
+		.carousel-caption{
+			padding:20px;
+			background-color: rgba(29,29,29,0,40);
+			border-radius: 3px;
+			-webkit-border-radius:3px;
+			-moz-border-radius:3px;
+		}
+		.carousel-inner{
+			border: 10px double #f7f7f7;
+			border-radius: 5px;
+			-webkit-border-radius:5px;
+			-moz-border-radius:5px;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<h1>Tạo slide show hình ảnh</h1>
+		<div class="row">
+			<div class="col-md-12">
+				<div id="carousel-example" class="carousel slide" data-ride="carousel">
+					<div class="carousel-inner">
+						<div class="item active">
+							<img src="images/giangsinh1.png" alt="">
+							<div class="carousel-caption">
+								<h3>Khóa học lập trình bootstrap</h3>
+								<p>Thiết kế web html, css</p>
+							</div>
+						</div>
+						<div class="item">
+							<img src="images/giangsinh2.jpg" alt="">
+							<div class="carousel-caption">
+								<h3>Khóa học photoshop</h3>
+								<p>photoshop</p>
+							</div>
+						</div>
+						<div class="item">
+							<img src="images/giangsinh3.jpg" alt="">
+							<div class="carousel-caption">
+								<h3>Khóa học PHP</h3>
+								<p>Lập trình backend</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<ol class="carousel-indicators">
+					<li class="active" data-target="#carousel-example" data-slide-to="0"></li>
+					<li data-target="#carousel-example" data-slide-to="1"></li>
+					<li data-target="#carousel-example" data-slide-to="2"></li>
+				</ol>
+				<a href="#carousel-example" class="left carousel-control" data-slide="prev">
+					<span class="glyphicon glyphicon-chevron-left"></span>
+				</a>
+				<a href="#carousel-example" class="right carousel-control" data-slide="next">
+					<span class="glyphicon glyphicon-chevron-right"></span>
+				</a>
+			</div>
+		</div>
+	</div>
+	 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script>
+    	$('#carousel-example').carousel({
+    		interval:2000
+    	})
+    </script>
+</body>
+</html>

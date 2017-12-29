@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
+	<link rel="stylesheet" type="text/css" href="">
+</head>
+<body>
+	<div class="container">
+		<h1>Dùng nav để tạo menu dạng navigation tab responsive</h1>
+		<div class="row">
+			<div class="col-md-12">
+				<ul class="nav nav-tabs responsive" id="myTab">
+					<li class="active"><a href="#chitietsanpham" data-toggle="tab"><span class="glyphicon glyphicon-info-sign"></span>Chi tiết sp</a></li>
+					<li><a href="#thongsokythuat" data-toggle="tab"><span class="glyphicon glyphicon-cog"></span>Thông số kỹ thuật</a></li>
+					<li><a href="#huongdanmuahang" data-toggle="tab"><span class="glyphicon glyphicon-plane"></span>Hướng dẫn mua hàng</a></li>
+					<li><a href="#binhluan" data-toggle="tab"><span class="glyphicon glyphicon-comment"></span>Bình luận</a></li>
+				</ul>
+				<div class="tab-content responsive">
+					<div class="tab-pane fade active in" id="chitietsanpham">Nội dung chi tiết của sản phẩm</div>
+					<div class="tab-pane fade in" id="thongsokythuat">Nội dung chi tiết của thống số kỹ thuật</div>
+					<div class="tab-pane fade in" id="huongdanmuahang">Nội dung hướng dẫn mua hàng</div>
+					<div class="tab-pane fade in" id="binhluan">Xuất ra các bình luận của khách hàng</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+	<script src="js/responsive-tabs.js"></script>
+    <script type="text/javascript">
+      $( '#myTab a' ).click( function ( e ) {
+        e.preventDefault();
+        $( this ).tab( 'show' );
+      } );
+
+      $( '#moreTabs a' ).click( function ( e ) {
+        e.preventDefault();
+        $( this ).tab( 'show' );
+      } );
+
+      ( function( $ ) {
+          // Test for making sure event are maintained
+          $( '.js-alert-test' ).click( function () {
+            alert( 'Button Clicked: Event was maintained' );
+          } );
+          fakewaffle.responsiveTabs( [ 'xs', 'sm' ] );
+      } )( jQuery );
+
+    </script>
+</body>
+</html>

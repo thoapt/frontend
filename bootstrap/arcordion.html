@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
+	<link rel="stylesheet" type="text/css" href="">
+</head>
+<body>
+	<div class="container">
+		<h1>Tạo arcordion trong bootstrap</h1>
+		<div class="row">
+			<div class="md-col-12">
+				<div class="panel-group" role="tablist" id="accordion">
+					<div class="panel panel-info">
+						<div class="panel-heading" role="tab">
+							<h4 class="panel-title"><a href="#chitietsanpham" data-toggle="collapse" data-parent="#accordion" arial-controls="#chitietsanpham">Chi tiết sản phẩm</a></h4>
+						</div>
+						<div id="chitietsanpham" class="panel-collapse collapse in" role="tabpanel" >
+							<div class="panel-body">
+								Mô tả chi tiết sản phẩm
+							</div>
+						</div>
+					</div>	
+					<div class="panel panel-info">
+						<div class="panel-heading" role="tab">
+							<h4 class="panel-title"><a href="#thongsokythuat" data-toggle="collapse" data-parent="#accordion" arial-controls="#thongsokythuat">Thông số kỹ thuật</a></h4>
+						</div>
+						<div id="thongsokythuat" class="panel-collapse collapse" role="tabpanel" >
+							<div class="panel-body">
+								Mô tả chi tiết thông số kỹ thuật của sản phẩm
+							</div>
+						</div>
+					</div>		
+					<div class="panel panel-info">
+						<div class="panel-heading" role="tab">
+							<h4 class="panel-title"><a href="#huongdanmuahang" data-toggle="collapse" data-parent="#accordion" arial-controls="#huongdanmuahang">Hướng dẫn mua hàng</a></h4>
+						</div>
+						<div id="huongdanmuahang" class="panel-collapse collapse" role="tabpanel" >
+							<div class="panel-body">
+								Mô tả hướng dẫn mua hàng
+							</div>
+						</div>
+					</div>	
+					<div class="panel panel-info">
+						<div class="panel-heading" role="tab">
+							<h4 class="panel-title"><a href="#binhluan" data-toggle="collapse" data-parent="#accordion" arial-controls="#binhluan">Bình luận</a></h4>
+						</div>
+						<div id="binhluan" class="panel-collapse collapse" role="tabpanel" >
+							<div class="panel-body">
+								Bình luận
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
