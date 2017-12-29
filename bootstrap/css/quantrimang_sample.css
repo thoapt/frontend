@@ -1,0 +1,148 @@
+body{
+    font-family: Arial,sans-serif;
+    font-size: 15px;
+    line-height: 23px;
+    background: #eee;
+    color: rgba(0,0,0,.87);
+}
+a{
+    text-decoration: none;
+    color: rgba(0,0,0,.87);
+}
+a:hover{
+ 	text-decoration: none;
+}
+ul,li{
+	list-style: none;
+	padding: 0;
+	margin:0;
+}
+.clear{
+	clear:both;
+}
+#content{
+    margin: 0 auto;
+    border-radius: 3px;
+    background: #fff;
+    min-height: 600px;
+    overflow: hidden;
+}
+/*-------------------->Css Header<----*/
+.header{
+	background: url('../images/quantrimang_bg-header.jpg');
+	background-color: red;
+	height:80px;
+}	
+#logo{
+	margin-top: 17px;
+}
+.search{
+	margin-top: 30px;
+}
+.header .search form input {
+	width: 90%;
+	float:left;
+}
+.header .search form input,.header .search form button{
+	border-radius: 0;
+} 
+.dangkydangnhap .dangky{
+	margin-right: 15px;
+}
+/*------------------>Css nav<--------*/
+#topnav{
+	background-color: #58257b;
+}
+#topnav li a{
+	color: white;
+	padding: 10px;
+}
+#topnav li a:hover,#topnav li a:focus{
+	color: #ff0;
+	background: none;
+}
+/*-------------->CSS main content<---------*/
+#main-content{
+	margin-top:20px;
+	margin-bottom:20px;
+}
+#main-content .first-column .col-md-6{
+	padding-left:0;
+}
+/*-------------->CSS slide<---------*/
+.slider span{
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background-color: rgba(0,0,0,.6);
+    text-align: center;
+    opacity: 0.9;
+    padding: 10px;
+}
+/*---------------->Css First column<--------------*/
+.first-column .list-view{
+	margin-top:50px;
+}
+.first-column .list-view .list-item .col-md-4{
+	padding:0;
+}
+.first-column .list-view .list-item{
+    border-bottom: 1px solid #eee;
+    margin-bottom: 25px;
+    min-height: 250px;
+}
+.first-column .list-view .list-item .col-md-8{
+	padding-right: 0
+}
+.first-column .list-view .list-item .title{
+	margin-top:0;
+}
+.first-column .list-view .list-item .user-info{
+	margin-top:10px;
+}
+/*---------------->Css Second column<--------------*/
+.second-column .top-new .title-top-news{
+	margin-top: 0;
+}
+.second-column .top-new .item-top{
+    margin: 10px 0 0 0;
+    border-bottom: 1px solid #eee;
+    padding: 0 0 10px 0;
+}
+.second-column .top-new .item-top a{
+	display: block;
+    padding-left: 70px;
+    position: relative;
+    min-height: 69px;
+}
+.second-column .top-new .item-top img{
+    width: 60px;
+    height: 60px;
+    border-radius: 3px;
+    position: absolute;
+    left: 0;
+    top: 3px;
+}
+/*---------------->Css Third column<--------------*/
+.third-column .col-md-2{
+	padding-right: 0;
+	padding-left: 0;
+}
+.third-column .panel .panel-heading{
+	background-color: #58257b;
+	color: white;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+}
+.third-column .panel .list-group-item{
+	border: 1px solid #eee;
+}
+/*---------------->Css Footer<--------------*/
+footer{
+	background: #fff;
+}
+footer .footer{
+	border-top: 2px solid #58257b;
+}
