@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
+	<link rel="stylesheet" type="text/css" href="">
+	<style>
+		header aside section article footer{
+			background-color: blue;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<h1>Tạo popup window bằng js modal</h1>
+		<div class="row">
+			<button type="button" class="btn btn-info" data-toggle="modal" data-target="#MyModal">Chuyên đề bootsrap</button>
+			<!--tạo hộp modal-->
+			<div class="modal fade" id="MyModal">
+				<div class="modal-dialog modal-lg">
+					<div class="modal-content">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" arial-label="close">
+								<span aria-hidden="true">&times;</span>
+							</button>
+							<h3 class="modal-title">Thông báo</h3>
+						</div>
+						<div class="modal-body">
+							<!--<h3>Khai giảng khóa học chuyên đề lập trình</h3>
+							<p>Tel: 1235665657</p>
+							<p>Học thiết kế website</p>
+							-->
+							<h1>Cách sử dụng col-xs, sm, md trong bootstrap</h1>
+							<div class="container_fluid">
+								<div class="row">
+									<div class="col-md-12">
+										<header>Phần header 12 cột</header>
+									</div>
+									<div class="col-sm-3 col-md-3">
+										<section>Cột trái (3 cột)</section>
+									</div>
+									<div class="col-sm-6 col-md-6">
+										<article>Cột chưa nội dung (6 cột)</article>
+									</div>
+									<div class="col-sm-3 col-md-3">
+										<aside>Cột phải (3 cột)</aside>
+									</div>
+									<div class="col-sm-6 col-md-6">
+										<footer>Hoc thiết kế web</footer>
+									</div>
+									<div class="col-sm-6 col-md-6">
+										<footer>Thoa phạm</footer>
+									</div>
+								</div>
+								<h1>Tìm hiẻu vertical form</h1>
+								<div class="row">
+									<form action="" name="dangnhap" method="post">
+										<div class="form-group">
+											<label for="taikhoan">Tài khoản</label>
+											<input type="text" name="username" class="form-control" placeholder="Tên tài khoản">
+										</div>
+										<div class="form-group">
+											<label for="matkhau">Mật khẩu</label>
+											<input type="password" name="pass" class="form-control" placeholder="Mật khẩu">
+										</div>
+										<div class="form-group">
+											<input type="checkbox" name="remember" checked="checked">Nhớ thông tin
+										</div>
+										<div class="form-group">
+											<input type="submit" class="btn btn-info" value="Đăng nhập">
+										</div>
+									</form>
+								</div>
+								<div class="row">
+			<table class="table-responsive">
+				<table class="table table-striped">
+				<thead>
+					<tr class="active">
+						<th>STT</th>
+						<th>Họ Tên</th>
+						<th>Giới tính</th>
+						<th>Địa chỉ</th>
+						<th>Khóa học</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr class="success">
+						<td>1</td>
+						<td>Nguyễn Văn A</td>
+						<td>Nam</td>
+						<td>Vinh-NA</td>
+						<td>Boostrap</td>
+					</tr>
+					<tr class="info">
+						<td>2</td>
+						<td>Nguyễn Văn B</td>
+						<td>Nam</td>
+						<td>Đà Nẵng-VN</td>
+						<td>Boostrap</td>
+					</tr>
+					<tr class="warning">
+						<td>3</td>
+						<td>Nguyễn Văn C</td>
+						<td>Nam</td>
+						<td>Đà Nẵng-VN</td>
+						<td>Boostrap</td>
+					</tr>
+					<tr class="danger">
+						<td>4</td>
+						<td>Nguyễn Văn D</td>
+						<td>Nam</td>
+						<td>Đà Nẵng-VN</td>
+						<td>Boostrap</td>
+					</tr>
+				</tbody>
+			</table>
+			</table>
+		</div>
+							</div>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-primary" data-dismiss="modal">Đóng lại</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>

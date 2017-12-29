@@ -1,20 +1,60 @@
-header{
-	background-image: url('../images/quantrimang_bg-header.jpg');
+#content{
+
 }
-ul li{
-	padding: 5px;
+.header {
+		background: url('../images/quantrimang_bg-header.jpg');
+		background-color: red;
+		height:80px;
+	}	
+#logo{
+	margin-top: 17px;
 }
-.list-inline{
+.search{
+	margin-top: 30px;
+}
+.dangkydangnhap {
+	margin-top: 40px;
+}
+.dangkydangnhap a{
+	color: black;
+}
+#topnav{
 	background-color: #58257b;
+}
+#topnav li:hover{
+	opacity: none;
+}
+#topnav li a{
 	color: white;
 }
-.slider{
-	background-color: red;
+#topnav li a:hover{
+	color: #e57614;
 }
-#tuyendung{
-	background-color: yellow;
 }
-li.glyphicon {
-	margin: 2px;
+.panel{
+	border: 1px solí #ccc;
 }
+.panel a:hover{
+	color: #c85927;
+}
+.panel .panel-heading{
+	background-color: #58257b;
+	color: white;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+}
+.slider span{
+	display: block;
+    margin-top: -55px;
+    margin-right: -85px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    height: 55px;
+    background-color: #264f70;
+    text-align: center;
+    opacity: 0.9;
+}
+
 

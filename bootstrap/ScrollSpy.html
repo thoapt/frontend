@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
+	<link rel="stylesheet" type="text/css" href="">
+	<style>
+		ul.nav-tabs.affix{
+			top:220px;
+		}
+		ul.nav-tabs{
+			width: 150px;
+			border-radius: 4px;
+			border: 1px solid #ddd
+			box-shadow: 0 1px 4px rgba(0,0,0,0.0067);
+			 } 
+		ul.nav-tabs li{
+			 	margin: 0;
+			 	border-top:1px solid #ddd;
+			 }
+		ul.nav-tabs li a{
+			margin:0;
+			padding: 1px 2px;
+			border-radius: 0;
+		}
+		ul.nav-tabs li.active.a, ul.nav-tabs li.active.a:hover{
+			color: white;
+			background-color:blue;
+			border:1px solid blue;
+		}
+		ul.nav-tabs li:first-child{
+			border-top: none;
+		}
+		@media only screen and (min-width:320px) and (max-width: 479px)
+		{
+			ul.nav-tabs{
+			width: auto;
+			border-radius: 4px;
+			border: 1px solid #ddd
+			box-shadow: 0 1px 4px rgba(0,0,0,0.0067);
+			 }
+		}
+		@media only screen and (min-width:480px) and (max-width: 767px)
+		{
+			ul.nav-tabs{
+			width: auto;
+			border-radius: 4px;
+			border: 1px solid #ddd
+			box-shadow: 0 1px 4px rgba(0,0,0,0.0067);
+			 }
+		}
+		@media only screen and (min-width:768) and (max-width: 992px)
+		{
+			ul.nav-tabs{
+			width: auto;
+			border-radius: 4px;
+			border: 1px solid #ddd
+			box-shadow: 0 1px 4px rgba(0,0,0,0.0067);
+			 }
+		}
+	</style>
+</head>
+<body data-spy="scroll" data-target="#MyScrollSpy">
+	<div class="container">
+		<h1>Tạo scrollSpy</h1>
+		<div class="row">
+			<div class="col-xs-2" id="MyScrollSpy">
+				<ul class="nav nav-tabs nav-stacked affix" data-spy="affix">
+					<li class="active"><a href="#muc1">Mục 1</a></li>
+					<li><a href="#muc2">Mục 2</a></li>
+					<li><a href="#muc3">Mục 3</a></li>
+					<li><a href="#muc4">Mục 4</a></li>
+					<li><a href="#muc5">Mục 5</a></li>
+				</ul>
+			</div>
+			<div class="col-xs-10">
+				<h2 id="muc1">Mục 1</h2>
+				<p>Nội dung Nội dung Nội dung Nội dung Nội dung Nội dung Nội dung Nội dung Nội dung Nội dung Nội dung Nội dung Nội dung Nội dung Nội dung Nội dung Nội dung Nội dung Nội dung Nội dung Nội dung Nội dung Nội dung Nội dung Nội dung Nội dung Nội dung Nội dung Nội dung Nội dung Nội dung Nội dung Nội dung Nội dung Nội dung Nội dung Nội dung Nội dung Nội dung Nội dung Nội dung Nội dung Nội dung Nội dung Nội dung Nội dung Nội dung Nội dung Nội dung Nội dung Nội dung Nội dung Nội dung Nội dung Nội dung Nội dung Nội dung Nội dung Nội dung Nội dung Nội dung Nội dung Nội dung Nội dung Nội dung Nội dung Nội dung Nội dung Nội dung Nội dung Nội dung Nội dung Nội dung Nội dung Nội dung Nội dung Nội dung Nội dung Nội dung Nội dung Nội dung Nội dung Nội dung Nội dung Nội dung Nội dung Nội dung Nội dung Nội dung Nội dung Nội dung Nội dung Nội dung Nội dung Nội dung Nội dung Nội dung Nội dung Nội dung Nội dung Nội dung Nội dung Nội dung Nội dung Nội dung Nội dung Nội dung Nội dung Nội dung Nội dung Nội dung Nội dung Nội dung Nội dung Nội dung Nội dung Nội dung Nội dung Nội dung Nội dung Nội dung Nội dung Nội dung Nội dung Nội dung Nội dung Nội dung Nội dung Nội dung Nội dung Nội dung Nội dung Nội dung Nội dung Nội dung Nội dung Nội dung Nội dung Nội dung Nội dung Nội dung Nội dung Nội dung Nội dung Nội dung Nội dung </p>
+				<hr>
+
+				<h2 id="muc2">Mục 2</h2>
+				<p>Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 Nội dung 2 </p>
+				<hr>
+
+				<h2 id="muc3">Mục 3</h2>
+				<p>Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 Nội dung3 </p>
+				<hr>
+
+				<h2 id="muc4">Mục 4</h2>
+				<p>Nội dung4 Nội dung4 Nội dung4 Nội dung4 Nội dung4 Nội dung4 Nội dung4 Nội dung4 Nội dung4 Nội dung4 Nội dung4 Nội dung4 Nội dung4 Nội dung4 Nội dung4 Nội dung4 Nội dung4 Nội dung4 Nội dung4 Nội dung4 Nội dung4 Nội dung4 Nội dung4 Nội dung4 Nội dung4 Nội dung4 Nội dung4 Nội dung4 Nội dung4 Nội dung4 Nội dung4 Nội dung4 Nội dung4 Nội dung4 Nội dung4 Nội dung4 Nội dung4 Nội dung4 Nội dung4 Nội dung4 Nội dung4 Nội dung4 Nội dung4 Nội dung4 Nội dung4 Nội dung4 Nội dung4 Nội dung4 Nội dung4 Nội dung4 Nội dung4 Nội dung4 Nội dung4 Nội dung4 Nội dung4 Nội dung4 Nội dung4 Nội dung4 Nội dung4 Nội dung4 Nội dung4 Nội dung4 Nội dung4 Nội dung4 Nội dung4 Nội dung4 Nội dung4 Nội dung4 Nội dung4 Nội dung4 Nội dung4 Nội dung4 Nội dung4 Nội dung4 Nội dung4 Nội dung4 Nội dung4 Nội dung4 Nội dung4 Nội dung4 Nội dung4 Nội dung4 Nội dung4 Nội dung4 Nội dung4 Nội dung4 Nội dung4 Nội dung4 Nội dung4 Nội dung4 Nội dung4 Nội dung4 Nội dung4 Nội dung4 Nội dung4 Nội dung4 Nội dung4 Nội dung4 Nội dung4 Nội dung4 Nội dung4 Nội dung4 Nội dung4 Nội dung4 Nội dung4 Nội dung4 Nội dung4 Nội dung4 Nội dung4 Nội dung4 Nội dung4 Nội dung4 Nội dung4 Nội dung4 Nội dung4 Nội dung4 Nội dung4 Nội dung4 Nội dung4 Nội dung4 Nội dung4 Nội dung4 Nội dung4 Nội dung4 Nội dung4 Nội dung4 Nội dung4 Nội dung4 Nội dung4 Nội dung4 Nội dung4 Nội dung4 Nội dung4 Nội dung4 Nội dung4 Nội dung4 Nội dung4 Nội dung4 Nội dung4 Nội dung4 Nội dung4 Nội dung4 Nội dung4 Nội dung4 Nội dung4 Nội dung4 Nội dung4 Nội dung4 Nội dung4 Nội dung4 Nội dung4 Nội dung4 Nội dung4 Nội dung4 Nội dung4 Nội dung4 Nội dung4 Nội dung4 Nội dung4 Nội dung4 Nội dung4 Nội dung4 Nội dung4 Nội dung4 Nội dung4 Nội dung4 Nội dung4 Nội dung4 Nội dung4 Nội dung4 </p>
+				<hr>
+
+				<h2 id="muc5">Mục 5</h2>
+				<p>Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 Nội dung5 </p>
+				<hr>
+			</div>
+		</div>
+	</div>
+	 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
