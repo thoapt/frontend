@@ -10,6 +10,7 @@
 	<link rel="stylesheet" type="text/css" href="css/quantrimang_sample.css">
 	<link rel="stylesheet" type="text/css" href="css/quantrimang_responsive.css">
 	<link rel="stylesheet" type="text/css" href="css/linhnguyen.css">
+	<link rel="stylesheet" type="text/css" href="css/boxchat.css">
 </head>
 <body>
 	<div id="content">
@@ -356,6 +357,37 @@
 	
 		<!-- Scroll arrow-->
 		<div id="scrollTop"></div>
+		<!-- Begin Chat box -->
+		<div class="col-md-3 col-md-offset-9">
+			<div class="panel panel-primary boxchat">
+                <div class="panel-heading" id="accordion">
+                    <span class="glyphicon glyphicon-comment"></span> Chat
+                    <div class="btn-group pull-right">
+                        <a type="button" class="btn btn-default btn-xs" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                            <span class="glyphicon glyphicon-chevron-down"></span>
+                        </a>
+                    </div>
+                </div>
+            <div class="panel-collapse collapse" id="collapseOne">
+                <div class="panel-body">
+                    <ul class="chat">
+                        
+                    </ul>
+                </div>
+                <div class="panel-footer">
+                    <div class="input-group">
+                        <input id="btn-input" type="text" class="form-control input-sm" placeholder="Type your message here..." />
+                        <span class="input-group-btn">
+                            <button class="btn btn-warning btn-sm" id="btn-chat">
+                                Send</button>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            </div>
+		</div>
+		</div>
+		<!-- the end box chat-->
 		<!-- Footer -->
 		<footer>
 			<div class="container footer">
@@ -371,7 +403,6 @@
 			<a class="close-linhnguyen-modal">X</a>
 		</div>			
 		<!-- End popup when load page finish-->
-	</div>
 	<!-- End main -->
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="js/jquery-3.2.1.min.js"></script>
