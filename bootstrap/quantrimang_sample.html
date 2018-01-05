@@ -9,6 +9,7 @@
 	<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
 	<link rel="stylesheet" type="text/css" href="css/quantrimang_sample.css">
 	<link rel="stylesheet" type="text/css" href="css/quantrimang_responsive.css">
+	<link rel="stylesheet" type="text/css" href="css/linhnguyen.css">
 </head>
 <body>
 	<div id="content">
@@ -365,14 +366,10 @@
 		</footer>
 		<!-- End Footer -->
 		<!-- Begin popup when load page finish-->
-		<div id="myModal" class="modal fade">
-			<div class="modal-dialog modal-lg">
-				<a href="#"><img src="images/popup.jpg" alt="popup"></a>
-				<button type="button" class="close" data-dismiss="modal" arial-label="close">
-					<span aria-hidden="true">&times;</span>
-				</button>
-			</div>
-		</div>
+		<div id="myModal" class="linhnguyen-modal">
+			<img src="images/popup.jpg" />
+			<a class="close-linhnguyen-modal">X</a>
+		</div>			
 		<!-- End popup when load page finish-->
 	</div>
 	<!-- End main -->
@@ -380,7 +377,11 @@
     <script src="js/jquery-3.2.1.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.popup.js"></script>
     <script language="javascript">
+    	$(window).on('load', function() {
+			  jQuery('#myModal').linhnguyen(jQuery('#myModal').data());
+			});
     	$(document).ready(function(){
     		$(window).scroll(function(event){
     			var scoll_top = $(this).scrollTop();
